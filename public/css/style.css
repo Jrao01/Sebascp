@@ -612,6 +612,14 @@ button {
      margin-right: auto;
 }
 
+@media screen and (max-width:600px) {
+
+     .clients_box{
+          width: 85% !important;
+     }
+     
+}
+
 .clients_box p {
      font-size: 17px;
      line-height: 35px;
@@ -760,6 +768,21 @@ ul.cont li {
      font-size: 17px;
      line-height: 32px;
      text-align: left;
+}
+
+@media screen and (max-width:768px) {
+     
+.footer h3{
+     text-align: center;
+}
+
+ul.cont li {
+     color: #8a9397;
+     font-size: 17px;
+     line-height: 32px;
+     text-align: center;
+}
+     
 }
 
 .copyright {
